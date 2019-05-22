@@ -1004,7 +1004,7 @@ U 1 1 5B8EE587
 P 7150 5950
 F 0 "J2" H 7150 6050 50  0000 C CNN
 F 1 "Battery connector" H 7150 5750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 7150 5950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7150 5950 50  0001 C CNN
 F 3 "" H 7150 5950 50  0001 C CNN
 	1    7150 5950
 	1    0    0    -1  
@@ -1061,12 +1061,6 @@ Wire Wire Line
 	2700 6450 2700 6000
 Wire Wire Line
 	1450 6000 2700 6000
-Wire Wire Line
-	1450 5900 2600 5900
-Wire Wire Line
-	1450 5800 2800 5800
-Wire Wire Line
-	1450 5700 2800 5700
 Text Label 1500 6000 0    50   ~ 0
 Arduino_GND
 Text Label 1500 5900 0    50   ~ 0
@@ -1078,12 +1072,12 @@ pin0
 $Comp
 L Connector:Conn_01x20_Male J1
 U 1 1 5CE5B250
-P 1250 6600
-F 0 "J1" H 1356 7678 50  0000 C CNN
-F 1 "Conn_01x20_Male" H 1356 7587 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Horizontal" H 1250 6600 50  0001 C CNN
-F 3 "~" H 1250 6600 50  0001 C CNN
-	1    1250 6600
+P 1000 6050
+F 0 "J1" H 1106 7128 50  0000 C CNN
+F 1 "Conn_01x20_Male" H 1106 7037 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Horizontal" H 1000 6050 50  0001 C CNN
+F 3 "~" H 1000 6050 50  0001 C CNN
+	1    1000 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1092,7 +1086,7 @@ U 1 1 5CE632B3
 P 7550 5950
 F 0 "J3" H 7550 6050 50  0000 C CNN
 F 1 "Battery connector" H 7550 5750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 7550 5950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7550 5950 50  0001 C CNN
 F 3 "" H 7550 5950 50  0001 C CNN
 	1    7550 5950
 	1    0    0    -1  
@@ -1107,4 +1101,26 @@ Wire Wire Line
 Connection ~ 6950 6050
 Wire Wire Line
 	6950 6050 7350 6050
+Wire Wire Line
+	1350 5700 1350 7050
+Wire Wire Line
+	1350 7050 1200 7050
+Wire Wire Line
+	1350 5700 2800 5700
+Wire Wire Line
+	1300 5900 1300 6950
+Wire Wire Line
+	1300 6950 1200 6950
+Wire Wire Line
+	1300 5900 2600 5900
+Wire Wire Line
+	1250 5800 1250 6850
+Wire Wire Line
+	1250 6850 1200 6850
+Wire Wire Line
+	1250 5800 2800 5800
+Wire Wire Line
+	1450 6000 1450 6750
+Wire Wire Line
+	1450 6750 1200 6750
 $EndSCHEMATC
