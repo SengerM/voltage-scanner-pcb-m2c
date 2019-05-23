@@ -1,4 +1,4 @@
-update=jue 20 sep 2018 11:14:40 -03
+update=jue 23 may 2019 11:50:12 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=plano/
+PlotDirectoryName=export/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
